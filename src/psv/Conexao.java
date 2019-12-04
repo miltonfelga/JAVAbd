@@ -1,5 +1,5 @@
 
-package projetojavadb;
+package psv;
 import java.sql.*;
 
 public class Conexao {
@@ -8,7 +8,7 @@ public class Conexao {
         
         try{
                 
-        Class.forName("com.mysql.jdbc.Driver").newInstance();
+        Class. forName("com.mysql.jdbc.Driver").newInstance();
         
         String url = "";
         url += "jdbc:mysql://127.0.0.1/estacionamento?";
